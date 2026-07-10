@@ -4,7 +4,7 @@ Interactive t-SNE visualization tool for exploring well embeddings and their nea
 
 The application supports two dimensionality-reduction backends:
 
-* **scikit-learn**, CPU-based and compatible with Ubuntu and macOS
+* **scikit-learn**, CPU-based 
 * **cuML**, GPU-accelerated and available on Linux computers with a compatible NVIDIA GPU
 
 When configured with automatic backend selection, the application uses cuML when available and falls back to scikit-learn otherwise.

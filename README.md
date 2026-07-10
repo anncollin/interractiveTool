@@ -14,11 +14,9 @@ When configured with automatic backend selection, the application uses cuML when
 ### Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/anncollin/interractiveTool.git
 cd interractiveTool
 ```
-
-Replace `<repository-url>` with the URL of this GitHub repository.
 
 ### Create the environment
 

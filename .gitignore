@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Accidental misspelling
+__pychache__/
+**/__pychache__/
+
+# Entire image directory
+/imgs/
+
+# Ignore all embeddings
+/embeddings/
+
+
+# Ignore all lists except the selected CSV files
+/lists/*
+!/lists/DINO+finoMixed_candidates_close_to_calibration_drugs.csv
+!/lists/DINO+finoMixed_isolated_points.csv
+
+# Conda and virtual environments
+.conda/
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store

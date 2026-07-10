@@ -1,0 +1,13 @@
+name: visu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - pillow
+  - pyqt
+  - scikit-learn
+  - pip
+  - pip:
+      - fastplotlib
